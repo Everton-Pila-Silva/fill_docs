@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>>
 <html lang="pt-br">
 
 <head>
@@ -23,7 +23,7 @@
         integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
 </head>
 
-<body onLoad="regressiva()">
+<body>
     <!-- 
          ------------------------------------------------
          --------------------- MENU ---------------------
@@ -31,7 +31,7 @@
     -->
     <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="index.html"><img class="d-inline-block align-top" width="30" height="40"
-                src="img/if_logo.png"></a>
+                src="img/nav_icon.png"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
             aria-controls="navbarTogglerDemo01" aria-expanded="true" aria-label="Alterna navegação">
             <span class="navbar-toggler-icon"></span>
@@ -39,24 +39,10 @@
         <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
             <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#item-1">Informações</a>
+                    <a class="nav-link" href="https://www.youtube.com/watch?v=UtnxXBTdprg">Tutorial</a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="#item-2">Programação</a>
-                </li>
-              <!-- <li class="nav-item active">
-                    <a class="nav-link" href="#item-3">Equipe</a>
-                </li>
-                --> 
-                <li class="nav-item active">
-                    <a class="nav-link" href="https://www.even3.com.br/ifmaismais/">Inscrições</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="https://pt-br.facebook.com/IFSULDEMINAS/"><img src="img/face.png" class="d-inline-block align-top" width="30"
-                            height="30"></a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="https://www.instagram.com/ifsuldeminas/"><img src="img/insta.png" class="d-inline-block align-top" width="30"
+                    <a class="nav-link" href="https://www.instagram.com/everton_p_s/"><img src="img/insta.png" class="d-inline-block align-top" width="30"
                             height="30"></a>
                 </li>
             </ul>
@@ -71,181 +57,29 @@
     -->
     <section class="header"
         style="background-image: url(img/fundo-3.gif); background-repeat: no-repeat; background-size: cover;">
-        <img id="logotipo" src="img/logo.png" style="width: 190px;">
-        <p class="date"> De 18 a 22 de outubro</p><br>
-        <button class="btn btn-outline-light d-grid gap-2 col-6 mx-0">
-            <a href="https://www.even3.com.br/ifmaismais/" target="_blank" class="subscribe">Inscreva-se</a>
-        </button><br><br>
+        <img id="logotipo" src="img/final_logo.png" style="width: 190px;">
+        <p class="date"> Preenchimento de Documentos </p><br>
+        <a href="#item-2"> <button class="btn-lg btn-light"> Acessar Termos e Politica </button> </a> <br> <br>
         <div>
-            <table class="contagem">
-                <tr>
-                    <td>
-                        <div class="numero" id="dia"></div>
-                    </td>
-                    <td>
-                        <div class="numero" id="hora"></div>
-                    </td>
-                    <td>
-                        <div class="numero" id="minuto"></div>
-                    </td>
-                    <td>
-                        <div class="numero" id="segundo"></div>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <div class="subHours">D </div>
-                    </td>
-                    <td>
-                        <div class="subHours">H</div>
-                    </td>
-                    <td>
-                        <div class="subHours">M</div>
-                    </td>
-                    <td>
-                        <div class="subHours">S</div>
-                    </td>
-                </tr>
-            </table>
-        </div>
     </section>
-
-    <!-- 
-         -------------------------------------------------
-         --------------------- SOBRE ---------------------
-         -------------------------------------------------         
-    -->
-    <div data-spy="scroll" data-target="#navbar-exemplo3" data-offset="0">
-        <section id="item-1">
-            <h2 id="titulo"> O que é o IF++</h2>
-            <div class="conteudoSbr">
-                <div id="divImg">
-                    <img id="img_sobre" src="img/frame_1.png">
-                </div>
-                <div id="divTxt">
-                    <p> IF++ é um encontro relacionado a tecnologia organizado diretamente por professores e alunos do
-                        IFSULDEMINAS, no qual reúnem minicursos e palestras para compartilhar conhecimentos
-                        e experiências. Acontecerá do 18 a 22 de Outubro, objetivando o incentivo, a curiosidade e a
-                        difusão do conhecimento para a comunidade interna do
-                        campus, assim como para toda a comunidade externa, uma vez que o evento é aberto para qualquer
-                        pessoa que se interesse por tecnologia, eletrônica, informática, robótica e que apoiam a cultura
-                        de
-                        compartilhar conhecimento e que querem complementar a formação profissional e acadêmica na área
-                        da
-                        ciência da computação.
-                    </p>
-                </div>
-            </div>
-        </section>
-
-        <!-- 
-         -------------------------------------------------------
-         --------------------- PROGRAMAÇÃO ---------------------
-         -------------------------------------------------------         
-        -->
+ 
         <section id="item-2">
             <div class="arredondado"></div>
             <div class="conteudProg">
-                <h2 id="titulo"> Programação </h2>
-                <div class="datas">
-                    <button class="btn btn-dark" id="botao1" onclick="programacao(1)"> 18/10 </button>
-                    <button class="btn btn-dark" id="botao2" onclick="programacao(2)"> 19/10 </button>
-                    <button class="btn btn-dark" id="botao3" onclick="programacao(3)"> 20/10 </button>
-                    <button class="btn btn-dark" id="botao4" onclick="programacao(4)"> 21/10 </button>
-                    <button class="btn btn-dark" id="botao5" onclick="programacao(5)"> 22/10 </button>
-                </div>
-                <div id="divProg">
-                    <div id="progInd"> <img src="img/palestra.png" id="icone">
-                        <div id="descProg">
-                            <p id="tituloProg"> Palestra: RSSF - o elo fraco da IoT </p>
-                            <p id="horario"> 19:00 - 20:00 </p>
-                            <p id="responsavel"> Prof. Omar Branquinho</p> <a id="link-meet"
-                                href="https://meet.google.com/pif-wvqc-jjq" target="_blank"> Assistir </a>
-                        </div>
-                    </div>
-                    <div id="progInd"> <img src="img/rodadeconversa.png" id="icone">
-                        <div id="descProg">
-                            <p id="tituloProg"> Roda de conversa: Desafios da mulher na área de TI </p>
-                            <p id="horario"> 20:00 - 21:30 </p>
-                            <p id="responsavel"> Grupo meninas digitais, Pyladies, MulherAda.. </p> <a id="link-meet"
-                                href="https://meet.google.com/ohf-qiob-ymx"
-                                target="_blank"> ASSISTIR  </a>
-                        </div>
-                    </div>
-                    <div id="progInd"> <img src="img/minicurso.png" id="icone">
-                        <div id="descProg">
-                            <p id="tituloProg"> Minicurso: Prototipagem com Figma </p>
-                            <p id="horario"> 20:00 - 21:30 </p>
-                            <p id="responsavel"> Matheus Augusto Simões </p> <a id="link-meet"
-                                href="https://meet.google.com/ivf-rxzf-wze"
-                                target="_blank"> ASSISTIR  </a>
-                        </div>
-                    </div>
-                    <div id="progInd"> <img src="img/minicurso.png" id="icone">
-                        <div id="descProg">
-                            <p id="tituloProg"> Minicurso: Arduino </p>
-                            <p id="horario"> 20:00 - 21:30 </p>
-                            <p id="responsavel"> Albert Medeiros de Paula </p> <a id="link-meet"
-                                href="https://meet.google.com/vud-foje-ocz"
-                                target="_blank"> ASSISTIR  </a>
-                        </div>
-                    </div>
-                </div>
-                <a id="inscrever" href="https://www.even3.com.br/ifmaismais/" target="_blank"> INSCRIÇÕES ABERTAS! </a>
+                <h2 id="titulo"> Termos de Serviço </h2><br>
+                <a target="_blank" href="OutDocument.html"> <button class="btn-lg btn-primary"> Acessar termos de serviço </button> </a>.<br> <br>
+                <h2 id="titulo"> Politica de privacidade </h2> <br>
+                <a target="_blank" href="OutDocument.html"> <button class="btn-lg btn-success"> Acessar politica de privacidade </button> </a>.
             </div>
         </section>
-    </div>
-        <!-- 
-         -------------------------------------------------------
-         --------------------- ORGANIZAÇÃO ---------------------
-         -------------------------------------------------------         
-    <section id="item-3">
-        <h2 id="titulo"> Equipe </h2>
-        <div class="tudo">
-            <div class="membro" id="albertM">
-                <img src="img/albert.png" onmouseover="MostraTexto('albert')" onMouseOut="TiraTexto('albert')">
-                <span id="albert"> Albert Medeiros - 6° período </span>
-            </div>
-            <div class="membro" id="brunoM">
-                <img src="img/bruno.png" onmouseover="MostraTexto('bruno')" onMouseOut="TiraTexto('bruno')">
-                <span id="bruno"> Bruno Silveira - 8° período </span>
-            </div>
-            <div class="membro" id="marisaM">
-                <img src="img/marisa.png" onmouseover="MostraTexto('marisa')" onMouseOut="TiraTexto('marisa')">
-                <span id="marisa"> Marisa Vieira - 8° período </span>
-            </div>
-            <div class="membro" id="amandaM">
-                <img src="img/amanda.png" onmouseover="MostraTexto('amanda')" onMouseOut="TiraTexto('amanda')">
-                <span id="amanda"> Amanda Valério - 6° período </span>
-            </div>
-            <div class="membro" id="matheusM">
-                <img src="img/matheus.png" onmouseover="MostraTexto('matheus')" onMouseOut="TiraTexto('matheus')">
-                <span id="matheus"> Matheus Simões - 6° período </span>
-            </div>
-            <div class="membro" id="vanessaM">
-                <img src="img/vanessa.png" onmouseover="MostraTexto('vanessa')" onMouseOut="TiraTexto('vanessa')">
-                <span id="vanessa"> Vanessa Rodrigues - 8° período </span>
-            </div>
-        </div>
-    </section>
-    </div>
-    -->
-
-        <!-- 
-         --------------------------------------------------
-         --------------------- FOOTER ---------------------
-         --------------------------------------------------         
-    -->
+    
     <footer>
          <div class="primeiradiv"></div>
             <div class="conteudodiv">
-                Everton Silva / IF++
+                Everton Silva / Fill Docs
             <div class="contatos">
                     <a href="https://www.linkedin.com/in/everton-pila-silva-84080a167/" target="_blank"> <img src="img/linkedin.png"> </a>
-                    <a href="https://www.linkedin.com/in/marisa-vieira-santos-6664a2173" target="_blank"> <img src="img/linkedin.png"> </a>
-            </div>
-              <p style="color: white; margin: 0;">Agradecimentos a Encomp / Marisa Vieia</p>
-            </div>
         </footer>
 </body>
 </html>
+
